@@ -1,0 +1,10 @@
+mark:
+  firstname: Markus
+  lastname: Plüss
+  email: m-pluess@example.com
+  password_digest: <%= User.digest('password') %>
+
+
+
+
+
